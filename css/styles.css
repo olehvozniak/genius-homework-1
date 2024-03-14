@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('../fonts/Roboto-Bold.ttf')
+}
+
+@font-face {
+    font-family: 'Play';
+    src: url('../fonts/Play-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Play';
+    font-weight: 700;
+    src: url('../fonts/Play-Bold.ttf')
+}
+
+:root {
+    --color-primary-light: #ffffff;
+    --color-primary-dark: #011c44;
+    --color-brand: #2b7fff;
+    --color-secondary-dark: #4a4a4a;
+    --color-secondary-light: #747272;
+}
+
+/* Base */
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+ul {
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Spans */
+.accent {
+    color: var(--color-brand);
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Buttons */
+.button {
+    font-weight: 700;
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+    border: 2px solid var(--color-brand);
+    border-radius: 32px;
+}
+
+.button:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+}
+
+/* Header */
+.header-link {
+    text-decoration: none;
+    color: var(--color-primary-dark);
+}
+
+.header-link:hover {
+    font-weight: 700;
+    color: var(--color-brand);
+}
+
+/* Hero section */
+
+.hero-title {
+    color: var(--color-brand);
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+.hero-comment {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--color-secondary-dark);
+}
+
+/* Sections */
+.section-title {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;   
+}
+
+.section-title.centered {
+    text-align: center;
+}
+
+/* About us section */
+
+.about-us-text {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+/* Why us section */
+
+.why-us-list-item {
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Procedures section */
+
+.procedures-article {
+    text-align: center;
+}
+
+.procedures-article-title {
+    /* color: var(--color-primary-light); */
+    color: var(--color-primary-dark);
+    font-size: 22px;
+}
+
+/* How to find section */
+
+.contacts-form-container {
+    background-color: var(--color-primary-dark);
+}
+
+.contacts-form-heading {
+    color: var(--color-primary-light);
+}
+
+.contacts-input {
+    border: 2px solid var(--color-secondary-light);
+    border-radius: 32px;
+    background-color: transparent;
+    color: var(--color-primary-light);
+    font-size: 13px;
+}
+
+.contacts-input::placeholder {
+    color: var(--color-primary-light);
+}
+
+.contacts-comment {
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--color-secondary-light);
+    text-align: center;
+}
+
+.contacts-comment a {
+    color: var(--color-secondary-light);
+    text-decoration-skip-ink: none;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-primary-dark);
+}
+
+.footer-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--color-brand);
+    font-weight: 700;
+}
+
+.footer-comment {
+    color: var(--color-secondary-light);
+    font-size: 13px;
+}
+
